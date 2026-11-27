@@ -1,0 +1,104 @@
+:root{
+    --whitespacing-left:13vw;
+    --whitespacing-nav-right:12.3vw;
+    --fs-lg-5:20px;
+    --mycolor:#272D38;
+}
+*{  font-family:inter ; }
+@font-face {
+    font-family: inter;
+    src: url(./../font/Inter-VariableFont_opsz\,wght.ttf);
+}
+.mybtn-bg {
+    background-color: #8EADD5 ;
+    border-color: #8EADD5 ;
+    color: #FFFFFF ;
+}
+.fs-h{font-size: 32px;}
+.myfs-1{   font-size: clamp(20px,5vh,45px);  }
+.myfs-3{    font-size: 16px;}
+.mycolor{   color: var(--mycolor);}
+.myfs-5 {   font-size: 14px; }
+.mypt{      padding-top: 20vh;  /* 171 167 */}
+.mylh{      line-height: 27.5px;}
+.myimg1{    width: 43vh; max-width: 400px; height: 43vh; max-height: 400px;}
+.mt-120{   margin-top: 120px;}
+.mt-section5{margin-top: 160px;}
+.size{width: 100%; height: 86px;}
+.bg{background-color: #F6F6F6;}
+.fs-p{font-size: 14px;}
+.pxy{padding: 56px 35px 48px;}
+.p-footer{ padding: 104px 96px 24px;}
+.fs-18{font-size: 18px;}
+.h{height: 194px;}
+.fs-12{font-size: 12px;}
+.mt{margin-top:92px ;}
+
+.shadow1{
+    background: radial-gradient( circle at top left, #8EADD53D, transparent 40% ) }
+.shadow2{
+    background: radial-gradient( circle at right, #8EADD53D, transparent 44% )}
+.img-size{width: 129px;  height: 130px;}
+.card-size{
+    width: 87.38vw;
+    max-width: 400px;}
+.padding-card{padding: 32px 48px;}
+.fs-pc{font-size: 14px;}
+    .carousel-indicators{
+    bottom: -80px;
+    gap: 24px;
+    }
+    .carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background-color: transparent !important;
+    border: 3px solid #8EADD5!important;
+    }
+    .carousel-indicators .active{
+    background-color: #8EADD5 !important;
+    width: 18px !important;
+    height: 18px !important;
+    position: relative;
+    bottom: 4px;
+    }
+@media screen and (min-width:992px){
+    .px-nav{
+    padding-left: var(--whitespacing-left) !important;
+    padding-right: var(--whitespacing-nav-right) !important;
+    }
+    .mypt{ padding-top: 27vh; }
+    .mypx{
+        padding-left: var(--whitespacing-left) !important;
+        padding-right: var(--whitespacing-left) !important;}
+    .myfs-5{    font-size: var(--fs-lg-5);}
+    .mytext-uppercase{    text-transform: uppercase !important;}
+    .mywidth-ul{    width: 39%;}
+    .myfs-1{    font-size: 64px;}
+    .img-lg{width: 72.46vh ; max-width: 450px ;
+            height: 72.46vh ; max-height: 450px ;}
+    .myw{width: 540px ;}
+    .mybtn{width: 167px !important; height: 48px !important;}
+    section.mt-lg-136 , .footer.mt-lg-136{   margin-top: 136px !important ;}
+    .mt-section5{margin-top: 176px;}
+    .size{width: 66%; height: 86px;}
+    .h-img{height: 48px ;}
+    .fs-h{font-size: 48px ;}
+    .fs-p{font-size: 16px ;}
+    .myw-lg{width: 436px !important;}
+    .wp-lg{width: 392px ;}
+    .pxy{padding:16vh 14px 16vh 0px ;}
+    .mx{margin-left: 13vw !important;
+        margin-right: 13vw !important;}
+    .w{width: 360px !important;}
+    .fs-12{font-size: 16px;}
+    .mt{margin-top:110px ;}
+    .h{height: 194px !important;}
+    .p-footer{ padding: 104px 12.7vw 18px;}
+    .shadow2{
+    background: radial-gradient(circle at right, #8EADD53D, transparent 30% ) }
+    .card-size{width: 24vw;}
+.padding-card{padding: 32px 32px;}
+
+
+}
